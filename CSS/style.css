@@ -9,7 +9,7 @@
     --dark-bg:#0a0a0a;
     --darker-bg:#050505;
     --accent:#2e78cc;
-    --accent-glow:rgba(46, 204, 113, 0.4);
+    --accent-glow:rgba(90, 135, 202, 0.4);
     --text:#ffffff;
 }
 
@@ -20,7 +20,6 @@ body{
     line-height: 1.6;
     overflow-x: hidden;
     scroll-behavior: smooth;
-
 }
 
 /* naviagation */
@@ -87,7 +86,7 @@ body{
 
 .hero {
     min-height: 100vh;
-    padding: 120px 5% 0;
+    padding: 50px 5% 0;
     display: flex;
     align-items: center;
 }
@@ -187,13 +186,12 @@ body{
 
 
 /* footer */
-
 footer {
-
     background: var(--darker-bg);
     padding: 3rem 5%;
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--accent);
 }
 
 .social-link {
